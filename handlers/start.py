@@ -16,7 +16,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722"),
             InlineKeyboardButton("⚜ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ⚜", url="https://telegra.ph/file/799f5ccbefff58040348d.jpg")
             ],[
-            InlineKeyboardButton("🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧", url="🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧")
+            InlineKeyboardButton("🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧", url="https://t.me/IronHeart_Assistant_722")
             ]]
         ),
         disable_web_page_preview=True
