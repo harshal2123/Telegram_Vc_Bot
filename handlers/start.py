@@ -11,12 +11,12 @@ async def start(_, message: Message):
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("🔱 𝗢𝗪𝗡𝗘𝗥 🔱", url="https://t.me/aloneness24")
+            InlineKeyboardButton("⚜️ OWNER ⚜️", url="https://t.me/Harsh_722")
             ],[
-            InlineKeyboardButton("⚜𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚜", url="https://t.me/HEAVNMUSICSUPPOR"),
-            InlineKeyboardButton("⚜ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗔𝗡𝗔𝗩 ⚜", url="https://t.me/ABOUTMANAV")
+            InlineKeyboardButton("🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722"),
+            InlineKeyboardButton("⚜ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ⚜", url="https://telegra.ph/file/799f5ccbefff58040348d.jpg")
             ],[
-            InlineKeyboardButton("🎵 𝗩𝗖 𝗣𝗟𝗔𝗬𝗘𝗥 🎵", url="https://t.me/HEAVENVCMUSIC")
+            InlineKeyboardButton("🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧", url="🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧")
             ]]
         ),
         disable_web_page_preview=True
@@ -28,7 +28,7 @@ async def gstart(_, message: Message):
         text="**⚜ # HEAVEN MUSIC ON FIRE**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="⚜ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗔𝗡𝗔𝗩 ⚜", url="https://t.me/ABOUTMANAV")
+            InlineKeyboardButton(text="🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722")
             ]]
         )
     ) 
@@ -37,12 +37,12 @@ async def gstart(_, message: Message):
 @Client.on_message(filters.command(["cmdlist", "start@HEAVENMUSICBOT"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**⚜ #HEAVEN  Music ON FIRE : Help Menu**
+        text="""**⚡️ 𝗜𝗿𝗼𝗻𝗛𝗲𝗮𝗿𝘁 𝗠𝘂𝘀𝗶𝗰 ⚡️ : Help Menu-**
 
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 
-**🏷 Common Commands.**
+**★ Common Commands ★**
 
 • `/play` - Song Name : __Plays Via Youtube__
 • `/dplay` - Song Name : __Play Via Deezer__
@@ -56,7 +56,7 @@ __× First Add Me To Your Group..
 • `/saavn` - song name : __download songs you want quickly via saavn__
 • `/search` - YouTube Title : __(Get YouTube Search Query)__
 
-**🏷 Group Admin Commands.**
+**★ Group Admin Commands ★**
 
 • `/skip` : __Skips Music__
 • `/pause` : __Pause Playing Music__
@@ -67,7 +67,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="⚜ 𝗔𝗕𝗢𝗨𝗧 𝗠𝗔𝗡𝗔𝗩 ⚜", url="https://t.me/ABOUTMANAV")
+              InlineKeyboardButton(text="🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722")
               ]]
           )
       )
