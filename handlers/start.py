@@ -11,12 +11,12 @@ async def start(_, message: Message):
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("⚜️ OWNER ⚜️", url="https://t.me/Harsh_722")
+            InlineKeyboardButton("🔱 𝗢𝗪𝗡𝗘𝗥 🔱", url="https://t.me/Harsh_722")
             ],[
-            InlineKeyboardButton("🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722"),
+            InlineKeyboardButton("⚜ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚜", url="https://t.me/ironheartsupport722"),
             InlineKeyboardButton("⚜ 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ⚜", url="https://telegra.ph/file/799f5ccbefff58040348d.jpg")
             ],[
-            InlineKeyboardButton("🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧", url="https://t.me/IronHeart_Assistant_722")
+            InlineKeyboardButton("🎧 𝗩𝗖 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 🎧", url="https://t.me/IronHeart_Assistant_722")
             ]]
         ),
         disable_web_page_preview=True
