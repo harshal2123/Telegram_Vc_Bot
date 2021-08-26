@@ -5,7 +5,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import BOT_USERNAME
 
 
-@Client.on_message(filters.command(["start", "start@HEAVENMUSICBOT"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@Harsh7_Musicbot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
@@ -22,10 +22,10 @@ async def start(_, message: Message):
         disable_web_page_preview=True
     )
         
-@Client.on_message(filters.command(["start", "start@HEAVENMUSICBOT"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@Harsh7_Musicbot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**⚜ # HEAVEN MUSIC ON FIRE**",
+        text="**⚡️ 𝗜𝗿𝗼𝗻𝗛𝗲𝗮𝗿𝘁 𝗠𝘂𝘀𝗶𝗰 ⚡️**",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton(text="🎙 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙", url="https://t.me/ironheartsupport722")
@@ -34,7 +34,7 @@ async def gstart(_, message: Message):
     ) 
 
 
-@Client.on_message(filters.command(["cmdlist", "start@HEAVENMUSICBOT"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["cmdlist", "start@Harsh7_Musicbot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
         text="""**⚡️ 𝗜𝗿𝗼𝗻𝗛𝗲𝗮𝗿𝘁 𝗠𝘂𝘀𝗶𝗰 ⚡️ : Help Menu-**
