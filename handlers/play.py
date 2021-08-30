@@ -451,7 +451,7 @@ async def play(_, message: Message):
         return     
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
-    await lel.edit("**__Searching Your Song__**")
+    await lel.edit("**__📥 sᴇᴀʀᴄʜɪɴɢ ʏᴏᴜʀ sᴏɴɢ...__**")
     sender_id = message.from_user.id
     user_id = message.from_user.id
     sender_name = message.from_user.first_name
@@ -462,7 +462,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("**__Processing Your Song__**")
+    await lel.edit("**__↻ Pʀᴏᴄᴇssɪɴɢ sᴏɴɢ ᴠɪᴀ ɪʀᴏɴʜᴇᴀʀᴛ ᴍᴜsɪᴄ..!__**")
     ydl_opts = {"format": "bestaudio/best"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -511,7 +511,7 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
         photo="final.png", 
-        caption=f"#⃣ Your requested song **queued** at position {position}!",
+        caption=f"#⃣ ǫᴜɪᴜᴇᴅ ᴀᴛ ᴘᴏsɪᴛɪᴏɴ {position}!",
         reply_markup=keyboard,
         )
         os.remove("final.png")
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** Here The Song Requested By {}".format(
+        caption="► ᴘʟᴀʏɪɴɢ ᴛʜᴇ sᴏɴɢ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ {}".format(
         message.from_user.mention()
         ),
     )
